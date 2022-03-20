@@ -1,0 +1,78 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1766750700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MainPage.startTest()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Search Agency",
+        "description": "",
+        "id": "search-agency;search-agency",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10118689300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "[Main Page] Navigate to VoxPro Web app",
+            "match": {
+              "location": "MainPage.openWebUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003ca class\u003d\"btn-first\" href\u003d\"http://34.219.20.222/login\"\u003e...\u003c/a\u003e is not clickable at point (31, 284). Other element would receive the click: \u003cdiv id\u003d\"nt-preloader\" class\u003d\"preloader\"\u003e...\u003c/div\u003e\n  (Session info: chrome\u003d98.0.4758.102)\nBuild info: version: \u00273.11.0\u0027, revision: \u0027e59cfb3\u0027, time: \u00272018-03-11T20:26:55.152Z\u0027\nSystem info: host: \u0027DESKTOP-0UUFB1T\u0027, ip: \u0027192.168.8.101\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_311\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49491}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 8af82ecca09fe8c9db7461ce33075ded\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)\r\n\tat step_defination.web.MainPage.navigateLoginPage(MainPage.java:148)\r\n\tat ✽.[Main Page] Go to the Login page(src/test/resources/Features/voxpro/web/SearchAgency.feature:7)\r\n",
+              "duration": 1119734900,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "[Main Page] Go to the Login page",
+            "match": {
+              "location": "MainPage.navigateLoginPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "line": 8,
+            "name": "[Main Page] Enter Username and Password and Click SigIn Button",
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@VoxProWeb"
+          },
+          {
+            "name": "@SmokeTestcase"
+          },
+          {
+            "name": "@SearchAgency"
+          },
+          {
+            "name": "@VPS-1"
+          }
+        ]
+      }
+    ],
+    "name": "Search Agency",
+    "description": "",
+    "id": "search-agency",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/voxpro/web/SearchAgency.feature",
+    "tags": []
+  }
+]
